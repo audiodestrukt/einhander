@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T08:38:15-0700",
+    "included_severities": [
+        "error"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "index.circuit.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [USB_DP] on F.Cu, length 0.8767 mm",
+                    "pos": {
+                        "x": 99.7501,
+                        "y": 126.8259
+                    },
+                    "uuid": "198d7d73-7a6b-4254-9867-6fb458cd6c03"
+                },
+                {
+                    "description": "Pad 10 [USB_DP] of J1 on F.Cu",
+                    "pos": {
+                        "x": 100.750062,
+                        "y": 126.825957
+                    },
+                    "uuid": "4ec81620-06b0-715f-4167-3362768127dd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 52 [QSPI_SCLK] of U1 on F.Cu",
+                    "pos": {
+                        "x": 79.425063,
+                        "y": 121.000002
+                    },
+                    "uuid": "3bf66b72-5951-14ae-1167-6b327c1feb12"
+                },
+                {
+                    "description": "Pad 6 [QSPI_SCLK] of U2 on F.Cu",
+                    "pos": {
+                        "x": 88.635,
+                        "y": 118.469908
+                    },
+                    "uuid": "29978170-4c58-bdb0-3db7-033038393bf0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

@@ -1,0 +1,176 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T08:34:58-0700",
+    "included_severities": [
+        "error"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "index.circuit.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [V3V3] of C_LED on F.Cu",
+                    "pos": {
+                        "x": 58.0875,
+                        "y": 111.0
+                    },
+                    "uuid": "299faa76-3d0a-9d36-5075-8ff663e082b6"
+                },
+                {
+                    "description": "Track [V3V3] on B.Cu, length 5.3593 mm",
+                    "pos": {
+                        "x": 59.9125,
+                        "y": 111.0
+                    },
+                    "uuid": "48b8a6f4-1a7f-406b-bf26-1ccef4c0cf41"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [V3V3] of C_OUT on F.Cu",
+                    "pos": {
+                        "x": 123.0875,
+                        "y": 129.0
+                    },
+                    "uuid": "2624c54a-12b9-d28a-00b1-2036141c12f6"
+                },
+                {
+                    "description": "Track [V3V3] on B.Cu, length 1.1978 mm",
+                    "pos": {
+                        "x": 124.9125,
+                        "y": 129.0
+                    },
+                    "uuid": "c8b24669-8362-49a0-a854-223849d851e3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 20.1675 mm",
+                    "pos": {
+                        "x": 58.0875,
+                        "y": 90.8325
+                    },
+                    "uuid": "04c9e8e6-2220-4993-86a3-75a2aa5467e6"
+                },
+                {
+                    "description": "Pad 2 [GND] of C_LED on F.Cu",
+                    "pos": {
+                        "x": 59.9125,
+                        "y": 111.0
+                    },
+                    "uuid": "2a91b660-2762-945f-7956-df1e34b4d623"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C_IN on F.Cu",
+                    "pos": {
+                        "x": 108.9125,
+                        "y": 129.0
+                    },
+                    "uuid": "5ba5e2a0-09b1-97e1-4842-b2de65c90263"
+                },
+                {
+                    "description": "Track [GND] on B.Cu, length 0.7392 mm",
+                    "pos": {
+                        "x": 107.0875,
+                        "y": 129.0
+                    },
+                    "uuid": "ddf37a36-dd22-45ee-88f3-5d409b5fae82"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 0.4620 mm",
+                    "pos": {
+                        "x": 123.8267,
+                        "y": 129.462
+                    },
+                    "uuid": "d73f37d5-db86-48ca-b2f8-f8bf37419d8f"
+                },
+                {
+                    "description": "Pad 2 [GND] of C_OUT on F.Cu",
+                    "pos": {
+                        "x": 124.9125,
+                        "y": 129.0
+                    },
+                    "uuid": "22f30a60-2f01-405f-7f0a-74e22d162a23"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [VBUS] of C_IN on F.Cu",
+                    "pos": {
+                        "x": 107.0875,
+                        "y": 129.0
+                    },
+                    "uuid": "52a992fa-3f3e-a03a-2bd3-ad7a1868baba"
+                },
+                {
+                    "description": "Track [VBUS] on B.Cu, length 0.4620 mm",
+                    "pos": {
+                        "x": 108.1733,
+                        "y": 129.0
+                    },
+                    "uuid": "7b6f4f12-5402-44f2-9745-1ba399a3856e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Items shorting two nets (nets VBUS and RUN)",
+            "items": [
+                {
+                    "description": "Pad 1 [VBUS] of C_IN on F.Cu",
+                    "pos": {
+                        "x": 107.0875,
+                        "y": 129.0
+                    },
+                    "uuid": "52a992fa-3f3e-a03a-2bd3-ad7a1868baba"
+                },
+                {
+                    "description": "Track [RUN] on F.Cu, length 23.2746 mm",
+                    "pos": {
+                        "x": 105.4716,
+                        "y": 128.7538
+                    },
+                    "uuid": "a12596e5-6231-442e-aa74-ac8de1f95210"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        }
+    ]
+}

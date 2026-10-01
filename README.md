@@ -21,6 +21,8 @@ pcb/    RP2040 USB-MIDI controller board
           scripts/                 route4.sh + the 4-layer routing toolchain
           index.circuit.kicad_pcb  routed 4-layer board
           fab/                     Gerbers + drill + CPL  (einhander-gerbers.zip → upload to JLCPCB)
+pcb-rerun/  the same board re-routed unattended (2026-10-01) — 0 shorts, 2 open nets;
+            found the DSN mirror bug behind pcb/'s hand patches (see pcb-rerun/README.md)
 ```
 
 ## The board

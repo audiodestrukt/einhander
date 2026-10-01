@@ -1,0 +1,21 @@
+{
+ "track_mm_total": 1463.8,
+ "track_mm_by_layer": {
+  "B.Cu": 638.4,
+  "F.Cu": 825.4
+ },
+ "segments_by_layer": {
+  "B.Cu": 218,
+  "F.Cu": 249
+ },
+ "segments_total": 467,
+ "vias": 49,
+ "power_track_mm": 484.5,
+ "nets_with_tracks": 31,
+ "zones": {
+  "GND@F.Cu": 1,
+  "GND@In1.Cu": 1,
+  "V3V3@In2.Cu": 1
+ },
+ "footprints": 42
+}
